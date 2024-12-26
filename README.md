@@ -2,17 +2,19 @@
 
 ## Introduction
 
-Hello!Welcome to my portfolio. My name is Cristian, and I’m thrilled to have you here!
+Hello!
+
+Welcome to my portfolio. My name is Cristian, and I’m thrilled to have you here!
 
 In this repository, you will find projects and case studies that showcase my expertise in:
 
-Data gathering and wrangling using tools like Python and R.
+* Data gathering and wrangling using tools like Python and R.
 
-Statistical analysis and predictive modeling.
+* Statistical analysis and predictive modeling.
 
-Data visualization and storytelling with tools like Tableau, Power BI
+* Data visualization and storytelling with tools like Tableau, Power BI
 
-Spreadsheet proficiency with Excel and Google Sheets.
+* Spreadsheet proficiency with Excel and Google Sheets.
 
 These projects reflect my passion for extracting actionable insights from data to solve complex business problems.
 

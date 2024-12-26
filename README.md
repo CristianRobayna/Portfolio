@@ -6,15 +6,13 @@ Welcome to my portfolio. My name is Cristian, and I’m thrilled to have you her
 
 In this repository, you will find projects and case studies that showcase my expertise in:
 
-* Data gathering and wrangling using tools like Python and R.
+- Data collection, cleaning, and transformation using tools like Python, Power Query, and R.
+- 
+- Statistical analysis, predictive modeling, and machine learning.
+- 
+- Data visualization and storytelling with tools like Tableau and Power BI.
 
-* Statistical analysis and predictive modeling.
-
-* Data visualization and storytelling with tools like Tableau, Power BI
-
-* Spreadsheet proficiency with Excel and Google Sheets.
-
-These projects reflect my passion for extracting actionable insights from data to solve complex business problems.
+In the following sections of this README, I will provide a short summary of my data journey and brief descriptions of the projects in each folder. Let’s get started!
 
 ## About Me & My Data Journey
 

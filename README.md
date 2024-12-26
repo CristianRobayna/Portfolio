@@ -30,4 +30,11 @@ Currently, I am seeking opportunities in Switzerland to advance my career as a D
 
 ## Proj#1 - Predictive Analysis of Credit Risk Using Machine Learning Techniques
 
-This project involves data analysis and processing of customer application data to predict the likelihood of loan default. The dataset contains various features about loan applicants, such as their income, loan amount, family status, and more. The goal is to prepare and clean the data for further analysis, machine learning models, or other relevant operations.
+* Objective: To develop a predictive credit risk model using advanced machine learning techniques, with a focus on handling highly imbalanced datasets.
+
+* Approach: Addressed the imbalance challenge using resampling techniques such as RandomUnderSampler and SMOTE, tested various algorithms including Logistic Regression, Decision Trees, and Gradient Boosting methods, and fine-tuned hyperparameters to optimize performance. Built an ensemble model using Bagging with LightGBM, Gradient Boosting Classifier, and Random Forest for improved accuracy and robustness.
+
+* Result: Achieved an average accuracy of 68.02% and an AUC of 0.7414 across cross-validation folds, providing reliable discrimination between credit risk classes. The model’s adaptability and interpretability make it suitable for real-world banking applications.
+
+* Tools Used: Python (Scikit-learn, LightGBM), Data Resampling Techniques, Ensemble Modeling.
+

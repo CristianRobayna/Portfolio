@@ -2,8 +2,6 @@
 
 ## Introduction
 
-Hello!
-
 Welcome to my portfolio. My name is Cristian, and I’m thrilled to have you here!
 
 In this repository, you will find projects and case studies that showcase my expertise in:

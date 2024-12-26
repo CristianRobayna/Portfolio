@@ -41,7 +41,10 @@ Currently, I am seeking opportunities in Switzerland to advance my career as a D
 # Proj#2 - Airbnb Price Analysis in Zurich
 
 - **Objective**: To analyze Airbnb pricing trends in Zurich and identify factors influencing accommodation costs, focusing on location, property type, guest ratings, and availability.
+  
 - **Approach**: Integrated calendar, listing, and review datasets from Inside Airbnb using Power Query. Transformed raw data by handling missing values, converting price data to numeric format, and merging datasets. Conducted in-depth analysis using Power BI to explore district-level pricing, property type variations, proximity to landmarks, and bedroom distributions.
+  
 - **Result**: Identified significant pricing differences across Zurich's districts, with central areas like Kreis 1 commanding higher prices. Entire homes and serviced apartments were notably more expensive than private rooms. Zones near key landmarks such as Lake Zurich and Bahnhofstrasse showed premium pricing, while rating analysis highlighted the relationship between guest satisfaction and pricing trends.
+  
 - **Tools Used**: Power BI, Power Query, Inside Airbnb Data.
 

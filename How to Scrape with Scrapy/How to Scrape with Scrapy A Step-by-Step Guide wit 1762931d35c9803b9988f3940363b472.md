@@ -3,6 +3,38 @@
 Scraping websites can be a powerful tool for gathering data, and Scrapy is one of the most popular frameworks to help you do this efficiently. Here's a comprehensive guide on setting up Scrapy and creating your first spider.
 
 ---
+# Summary
+
+Here’s a quick recap of the steps we followed in this guide:
+
+## 1. Setting Up the Environment
+
+- Installed Python and Pip.
+- Created a virtual environment to isolate project dependencies.
+- Installed Scrapy using Pip.
+
+## 2. Creating a Scrapy Project
+
+- Generated a new Scrapy project using `scrapy startproject`.
+- Created a spider using `scrapy genspider`.
+
+## 3. Building the Spider
+
+- Updated the spider to target property listings on [Homegate.ch](http://homegate.ch/).
+- Used the Scrapy shell to test CSS selectors and extract data.
+- Extracted property details (price, rooms, living space, and address) from each card.
+- Added pagination logic to scrape all pages.
+
+## 4. Running the Spider
+
+- Ran the spider using `scrapy crawl`.
+- Saved the scraped data to a CSV file (`properties.csv`).
+
+## 5. Key Takeaways
+
+- **CSS Selectors**: Used to extract specific elements from HTML.
+- **Pagination**: Handled by finding and following the "Next" button.
+- **Data Export**: Saved data in JSON or CSV format for further analysis.
 
 ## **1. Setting Up Your Environment**
 

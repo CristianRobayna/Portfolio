@@ -14,7 +14,7 @@ First, download and install Python from the [official Python website](https://ww
 python --version
 ```
 
-1. **Installing Pip**
+2. **Installing Pip**
 
 Pip is included with last versions of Python, but you can double-check its installation:
 
@@ -24,7 +24,7 @@ pip --version
 
 If you have not pip install, you can installed from here: [https://pip.pypa.io/en/stable/installation/](https://pip.pypa.io/en/stable/installation/)
 
-1. **Setting Up a Virtual Environment**
+3. **Setting Up a Virtual Environment**
 
 Virtual Env is already installed in Python 3.9 and above but if you have a previous version it can be installed manually using “pip install virtualenv”.
 
@@ -42,7 +42,7 @@ myenv\Scripts\activate
 
 To check if it is activated, you can see at the start of the terminal (myenv), now every package will be install into this folder and be specific to this project.
 
-1. **Scrapy Instalation**
+4. **Scrapy Instalation**
 
 To create a new Scrapy project, first run in the terminal:
 
@@ -72,7 +72,7 @@ scrapy startproject homegate_scraper
 
 This creates a new Scrapy project named `homegate_scraper`.
 
-1. **Navigate into your project folder:**
+2. **Navigate into your project folder:**
 
 ```python
 cd homegate_scraper
@@ -194,7 +194,7 @@ cd homegate_scraper
 
 ---
 
-1. **Extract Data for All Cards**
+5. **Extract Data for All Cards**
     
     Now that we’ve tested the selectors for one card, let’s loop through all the cards and extract the data for each one:
     
@@ -216,7 +216,7 @@ Run the spider again. This time, it will extract and print the data for all prop
 
 ---
 
-1. **Handle Pagination**
+6. **Handle Pagination**
     
     To scrape all pages, we need to find the "Next" button and follow it to the next page.
     
@@ -253,7 +253,7 @@ Run the spider again. This time, it will extract and print the data for all prop
 
 ---
 
-1. **Run the Spider and Save the Data**
+7. **Run the Spider and Save the Data**
     
     Finally, run the spider and save the scraped data to a file:
     

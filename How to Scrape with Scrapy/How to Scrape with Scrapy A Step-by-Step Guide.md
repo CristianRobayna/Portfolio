@@ -345,4 +345,116 @@ Scrapy is a powerful tool that can handle even more complex scraping tasks, such
 - Scraping data from APIs.
 - Storing data in databases (e.g., PostgreSQL, MongoDB).
 
-This project is just the beginning. As you continue to work with Scrapy, you’ll discover more advanced features and techniques to tackle even more challenging scraping tasks.
+## 6. Ethical Scraping and Checking `robots.txt`
+
+When scraping websites, it’s crucial to follow ethical guidelines and respect the website’s terms of service. One way to ensure compliance is by checking the website’s robots.txt file.
+
+### What is robots.txt?
+The robots.txt file is a text file placed on a website’s server that tells web crawlers (like search engines or scrapers) which pages or sections of the site should not be accessed. It’s part of the Robots Exclusion Protocol.
+
+### How to Check robots.txt for Homegate.ch
+
+To check the robots.txt file for Homegate.ch, simply visit the following URL in your browser. This will display the rules that Homegate.ch has set for web crawlers. You will see something like this:
+
+```txt
+User-agent: *
+
+Disallow: /view/
+Disallow: /*adtech*
+Disallow: /*objectlist.seam*
+Disallow: /homegate-war/
+Disallow: /wicket-*
+
+Disallow: /*?*a=
+Disallow: /*?*aa=
+Disallow: /*?*ab=
+Disallow: /*?*ae=
+Disallow: /*?*af=
+Disallow: /*?*ag=
+Disallow: /*?*ah=
+Disallow: /*?*ai=
+Disallow: /*?*aj=
+Disallow: /*?*ak=
+Disallow: /*?*al=
+Disallow: /*?*am=
+Disallow: /*?*an=
+Allow: /buy/real-estate/*/matching-list?an=G
+Allow: /rent/real-estate/*/matching-list?an=G
+Allow: /mieten/immobilien/*/trefferliste?an=G
+Allow: /kaufen/immobilien/*/trefferliste?an=G
+Allow: /louer/biens-immobiliers/*/liste-annonces?an=G
+Allow: /acheter/biens-immobiliers/*/liste-annonces?an=G
+Allow: /affittare/immobile/*/lista-annunci?an=G
+Allow: /acquistare/immobile/*/lista-annunci?an=G
+Disallow: /*?*ao=
+Disallow: /*?*av=
+Disallow: /*?*availableFunds=
+Disallow: /*?*ax=
+Disallow: /*?*ay=
+Disallow: /*?*az=
+Disallow: /*?*ba=
+Disallow: /*?*bb=
+Disallow: /*?*bc=
+Disallow: /*?*bd=
+Disallow: /*?*be=
+Disallow: /*?*bf=
+Disallow: /*?*bg=
+Disallow: /*?*conversationPropagation=
+Disallow: /*?*cid=
+Disallow: /*?*fromItem=
+Disallow: /*?*gclid=
+Disallow: /*?*id=
+Disallow: /*?*incsubs=
+Disallow: /*?*l=
+Disallow: /*?*lang=
+Disallow: /*?*lastMap=
+Disallow: /*?*mn=
+Disallow: /*?*ms=
+Disallow: /*?*o=
+Disallow: /*?*oa=
+Disallow: /*?*od=
+Disallow: /*?*picPos=
+Disallow: /*?*propertyType=
+Disallow: /*?*propertyZip=
+Disallow: /*?*prtcp=
+Disallow: /*?*purchasePrice=
+Disallow: /*?*regiontype=
+Disallow: /*?*rlidx=
+Disallow: /*?*rpid=
+Disallow: /*?*rs=
+Disallow: /*?*s=
+Disallow: /*?*siws=
+Disallow: /*?*subscrType=
+Disallow: /*?*tab=
+Disallow: /*?*token=
+Disallow: /*?*totalIncome=
+Disallow: /*?*tr=
+Disallow: /*?*url=
+Disallow: /*?*userkey=
+Disallow: /*?*zipAndCity=
+Disallow: /*?*zipCity=
+Disallow: /*?*demoCustomerId=
+
+User-agent: Bingbot
+Disallow: *//fonts.googleapis.com
+
+Sitemap: https://www.homegate.ch/sitemap/sitemap.xml
+
+```
+
+### What to Look For
+- If you see Disallow: / or specific paths related to the data you’re scraping, it means the website does not allow scraping of those pages.
+
+- If there are no restrictions (Allow: /), you can proceed with scraping, but always do so responsibly.
+
+### Best Practices for Ethical Scraping
+
+- Respect robots.txt: Always check the robots.txt file and follow its rules.
+
+- Limit Request Rate: Avoid sending too many requests in a short period. Use Scrapy’s DOWNLOAD_DELAY setting to add a delay between requests.
+
+- Identify Your Spider: Set a custom user agent for your spider to identify yourself.
+
+- Avoid Overloading the Server: Be mindful of the website’s server load. Scrape during off-peak hours if possible.
+
+- Check Terms of Service: Review the website’s terms of service to ensure scraping is allowed.
